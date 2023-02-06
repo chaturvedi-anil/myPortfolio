@@ -8,10 +8,9 @@ body
 {
     margin-top: 0px;
     height: 60vh;
-    opacity: 0.8;
+    opacity: 0.9;
     background-image: url(./images/macbook_mouse.jpg);
     background-size: contain;
-
 }
 
 .horizental-list
@@ -35,6 +34,16 @@ body
 {
     text-decoration: underline;
     color: lightgrey;
+}
+
+#name-social-container
+{
+    margin-top: 16vh;
+}
+.name-container h1
+{
+    color: white;
+    font-size: 3rem;
 }
 /* Text Center */
 .text-center
