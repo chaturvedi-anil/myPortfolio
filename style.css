@@ -78,10 +78,20 @@ section:nth-child((2n+1))
 }
 section:nth-child(2n)
 {
-    background-color:lightgray; 
+    background-color:rgb(242, 240, 240); 
 }
 
-
+.section-heading
+{
+    color: royalblue;
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+.section-heading span
+{
+    padding: 10px;
+    font-family: monospace;
+}
 /* About Section */
 #image-container
 {
@@ -102,6 +112,20 @@ section:nth-child(2n)
     text-align: justify;
 }
 
+/* Skill section */
+#skill-display
+{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 2rem;
+}
+.skill-progress
+{
+    width: 100px;
+    border: 2px solid red;
+}
 
 /* common margin */
 .mb75px
