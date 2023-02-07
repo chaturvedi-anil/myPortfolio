@@ -38,15 +38,59 @@ body
 
 #name-social-container
 {
-    margin-top: 16vh;
+    margin-top: 18vh;
 }
 .name-container h1
 {
     color: white;
     font-size: 3rem;
 }
+.social-icons-container
+{
+    margin-top: -2rem;
+}
+.social-icons-container li a
+{
+    margin:0.2rem;
+    font-size: 1.5rem;
+}
+.social-icons-container li a:hover
+{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 4px white;
+    color: white;
+}
 /* Text Center */
 .text-center
 {
     text-align: center;
+}
+
+/* section common style */
+section
+{
+    width: 100%;
+    height: auto;
+}
+section:nth-child((2n+1))
+{
+    background-color: white
+}
+section:nth-child(2n)
+{
+    background-color: lightgray;
+}
+
+
+/* About Section */
+#image-container
+{
+    position: relative;
+    margin-top: -110px;
+}
+#image-container img
+{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
 }
